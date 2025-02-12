@@ -1,0 +1,8 @@
+---
+- name: Installing telnet Playbook
+  hosts: dev
+  tasks:
+    - name: Installing telnet
+      yum:
+        name: telnet
+        state: latest
