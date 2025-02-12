@@ -11,3 +11,8 @@
       yum:
         name: nginx
         state: latest
+
+    - name: Installing httpd
+      yum:
+        name: httpd
+        state: latest
